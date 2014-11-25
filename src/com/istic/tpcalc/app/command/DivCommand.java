@@ -1,4 +1,4 @@
-package com.istic.tpcalc.command;
+package com.istic.tpcalc.app.command;
 
 
 public class DivCommand implements ICommand

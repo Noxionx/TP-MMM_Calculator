@@ -1,4 +1,4 @@
-package com.istic.tpcalc.testing;
+package com.istic.tpcalc.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -10,11 +10,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.istic.tpcalc.command.AddCommand;
-import com.istic.tpcalc.command.DivCommand;
-import com.istic.tpcalc.command.ICommand;
-import com.istic.tpcalc.command.MulCommand;
-import com.istic.tpcalc.command.SubCommand;
+import com.istic.tpcalc.app.command.AddCommand;
+import com.istic.tpcalc.app.command.DivCommand;
+import com.istic.tpcalc.app.command.ICommand;
+import com.istic.tpcalc.app.command.MulCommand;
+import com.istic.tpcalc.app.command.SubCommand;
 
 public class CalcTest {
 

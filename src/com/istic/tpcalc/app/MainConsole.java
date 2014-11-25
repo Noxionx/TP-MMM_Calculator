@@ -1,4 +1,4 @@
-package com.istic.tpcalc.ui;
+package com.istic.tpcalc.app;
 
 public class MainConsole {
 

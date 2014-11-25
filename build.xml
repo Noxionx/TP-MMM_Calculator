@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TP_Calculette" default="compile">
+    <target name="clean">
+        <delete dir="classes"/>
+    </target>
+    <target name="clobber" depends="clean">
+        <delete file="tpcalc.jar"/>   
+    </target>
+    <target name="compile">
+        <mkdir dir="classes"/>
+        <javac srcdir="com/istic/tpcalc/app" destdir="classes"/>
+    </target>
+    <target name="jar" depends="compile">
+        <jar destfile="tpcalc.jar">
+            <fileset dir="classes" includes="**/*.class"/>
+            <manifest>
+                <attribute name="Main_Class" value="MainConsole"/>
+            </manifest>
+        </jar>
+    </target>
+</project>
